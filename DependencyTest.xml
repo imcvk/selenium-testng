@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.listeners.TestNGListenersReport"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="D:/Code/testng/selenium-testng/src/main/java/org/testngsuite/DependencyTest.java">
+        <classes>
+            <class name="org.testngsuite.DependencyTest"/>
+                
+        </classes>
+    </test>
+</suite>

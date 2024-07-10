@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+
+<suite name="Suite1">
+    <parameter name="browser" value="chrome"/>
+    <test verbose="2" preserve-order="true" name="testngsuite">
+        <classes>
+            <class name="org.testngsuite.SendParametersFromTestNGFile"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+
+<suite name="Suite1">
+    <parameter name="browser" value="chrome"/>
+    <listeners >
+        <listener class-name="org.listeners.TestNGListeners"/>
+        <listener class-name="org.testngsuite.RetryListener"/>
+
+    </listeners>
+    <test verbose="2" preserve-order="true" name="testngsuite">
+        <classes>
+<!--            <class name="org.testngsuite.TestNG_Listener_Demo"/>-->
+            <class name="org.testngsuite.TakeScreenshotDemo"/>
+        </classes>
+    </test>
+</suite>
